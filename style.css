@@ -76,10 +76,12 @@ justify-content: center;
 .fdiv{
 margin-top: 10%;
 width: 350px;
-height: 120px;
+height: 80px;
 display: flex;
 padding-left: 25px;
 padding-right: 25px;
+position: absolute;
+bottom: 1%;
 }
 .bdiv{
 display: block;
