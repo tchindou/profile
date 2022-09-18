@@ -76,7 +76,7 @@ justify-content: center;
 .fdiv{
 margin-top: 10%;
 width: 350px;
-height: 100px;
+height: 120px;
 display: flex;
 padding-left: 25px;
 padding-right: 25px;
@@ -116,7 +116,7 @@ color: hsl(229, 23%, 23%);
               margin-right: 20px;
               margin-left: 20px;
               margin-top: 20px;
-              margin-bottom: 30px;
+              margin-bottom: 40px;
        }
        .top{
               width: 250px;
