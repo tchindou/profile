@@ -53,7 +53,7 @@ background-color: white;
 clip-path: circle(50%);
 position: absolute;
 left: 50%;
-transform: translate(-50%,-40%);
+transform: translate(-50%,-50%);
 border: 2px;
 }
 .scircle{
@@ -76,7 +76,7 @@ justify-content: center;
 .fdiv{
 margin-top: 10%;
 width: 350px;
-height: 150px;
+height: 100px;
 display: flex;
 padding-left: 25px;
 padding-right: 25px;
@@ -104,17 +104,13 @@ color: hsl(229, 23%, 23%);
               left: 50%;
               transform: translate(-50%,-50%);
        }
-       .circle{
-              width: 100px;
-       }
-       .scircle{
-              width: 85px;
-       }
        .scard{
+              margin-top: 25.5%;
               width: 300px;
        }
        .fdiv{
               width: 300px;
+              padding: 0%;
        }
        .bdiv{
               margin: 20px;
