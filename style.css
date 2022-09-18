@@ -1,0 +1,120 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+z-index: -1;
+background-color: hsl(185, 75%, 39%);
+font-size: 15px;
+font-family: "Kumbh Sans"
+}
+*{
+padding: 0%;
+margin: 0%;
+}
+.top{
+height: 450px;
+width: 650px;
+position: absolute;
+top: 0%;
+left: 0%;
+background-image: linear-gradient(90deg, #0989B4, #53FFEE);
+opacity: 0.25;
+clip-path: ellipse(78% 100% at 22% 0%);
+z-index: -1;
+}
+.bottom{
+height: 400px;
+width: 600px;
+position: absolute;
+bottom: 0%;
+right: 0%;
+background-image: linear-gradient(77deg, #53FFEE 77%, #0989B4);
+opacity: 0.2;
+clip-path: ellipse(57% 100% at 57% 100%);
+z-index: -1;
+}
+.card{
+display: block;
+width: 350px;
+height: 400px;
+border-radius: 10px;
+position: absolute;
+background-color: white;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.circle{
+width: 125px;
+height: 125px;
+background-color: white;
+clip-path: circle(50%);
+position: absolute;
+left: 50%;
+transform: translate(-50%,-40%);
+border: 2px;
+}
+.scircle{
+width: 115px;
+height: 115px;
+background-color: cyan;
+clip-path: circle(50%);
+position: absolute;
+left: 50%;
+transform: translate(-50%,4.2%);
+border: 2px;
+}
+.scard{
+display: block;
+width: 350px;
+height: 40px;
+margin-top: 24%;
+justify-content: center;
+}
+.fdiv{
+margin-top: 10%;
+width: 350px;
+height: 150px;
+display: flex;
+border-top: 1px solid rgb(139, 134, 134);
+padding-left: 25px;
+padding-right: 25px;
+}
+.bdiv{
+display: block;
+width: 60px;
+margin: 20px;
+}
+p{
+color: hsl(0, 0%, 59%);
+}
+.first{
+color: hsl(229, 23%, 23%);
+}
+@media all and(max-width: 375px) {
+       .card{
+              width: 300px;
+              position: absolute;
+              left: 50%;
+              transform: translate(-50%,-50%);
+       }
+       .circle{
+              width: 100px;
+       }
+       .scircle{
+              width: 85px;
+       }
+       .scard{
+              width: 300px;
+       }
+       .fdiv{
+              width: 300px;
+              padding-left: 10px;
+              padding-right: 10px;
+       }
+       .bdiv{
+              margin: 20px;
+       }
+}
